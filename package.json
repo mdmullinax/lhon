@@ -1,0 +1,13 @@
+{
+  "name": "lhon-field-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An illustrated, fully sourced guide to Leber hereditary optic neuropathy",
+  "scripts": {
+    "test": "node tools/smoke.js",
+    "serve": "python3 -m http.server --directory site 8731"
+  },
+  "devDependencies": {
+    "jsdom": "^31.0.1"
+  }
+}
